@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: python
-          image: sanketshirke/python-app:latest
+          image: vahiniponnoju/python-app:latest
           ports:  
             - containerPort: 5000
           imagePullPolicy: Always
